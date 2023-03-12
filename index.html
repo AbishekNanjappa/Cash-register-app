@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="cash-register">Cash Register</h1>
+        <label for="bill-amount">Bill Amount:</label>
+        <input id="bill-amount" type="number"/>
+        <br>
+        <br>
+        <label for="cash-given">Cash Given:</label>
+        <input id="cash-given" type="number"/>
+        <br>
+        <br>
+        <button id="check-button">Check</button>
+        <p id="error-message"></p>
+        <br>
+        <br>
+        <table>
+            <caption>Type and number of denominations to be returned:</caption>
+            <tr>
+                <th>No. of notes</th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

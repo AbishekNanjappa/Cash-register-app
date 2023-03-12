@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: "center";
+  }
+
+button{
+    align-items: center;
+}
+
+#container{
+    width: 50vw;
+    height: 30vw;
+    align-items: center;
+}
